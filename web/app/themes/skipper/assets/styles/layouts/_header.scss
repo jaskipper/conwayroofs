@@ -1,0 +1,89 @@
+.navbar-inverse {
+  background-color: rgba(#222222, 0.8)
+}
+.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+  background-color: rgba($color-primary-2, 0.8)
+}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
+  background-color: rgba(#080808, 0.4)
+}
+.dropdown-menu {
+  background-color: rgba(#222222, 0.8)
+}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+  background-color: rgba($color-primary-2, 0.8)
+}
+.navbar-inverse {
+  background-image: none;
+}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+  background-image: none;
+}
+.navbar-inverse {
+  border-color: #080808
+}
+.navbar-inverse .navbar-brand {
+  color: $color-primary-2
+}
+.navbar-inverse .navbar-brand:hover {
+  color: #E8703C
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: #999999
+}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+  color: #FFFFFF
+}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
+  color: #FFFFFF
+}
+.navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+  color: #FFFFFF
+}
+.dropdown-menu>li>a {
+  color: #999999
+}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+  color: #FFFFFF
+}
+.navbar-inverse .navbar-nav>.dropdown>a .caret {
+  border-top-color: #999999
+}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
+  border-top-color: #FFFFFF
+}
+.navbar-inverse .navbar-nav>.dropdown>a .caret {
+  border-bottom-color: #999999
+}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
+  border-bottom-color: #FFFFFF
+}
+.cslogoheader {
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin-right: 5px;
+  margin-top: 15px;
+  background-image: url(../images/cwsonlogo.svg);
+  background-size: 30px;
+  background-repeat: no-repeat;
+  @media screen and (max-width: 767px) {
+    margin-left: 15px;
+  }
+}
+.no-svg .cslogoheader {
+  background-image: url(../images/cwsonlogo.png);
+}
+.navbar-brand {
+  @media screen and (max-width: 767px) {
+    padding-left: 0px;
+  }
+}
+.navbar-header {
+  .grow {
+    float: left;
+  }
+}
+.hdphone {
+  font-size: 14px;
+}

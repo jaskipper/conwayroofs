@@ -1,0 +1,13 @@
+{
+  "minify": true,
+  "options": [
+    "setClasses"
+  ],
+  "feature-detects": [
+    "test/svg",
+    "test/css/boxshadow",
+    "test/css/flexbox",
+    "test/css/vhunit",
+    "test/svg/inline"
+  ]
+}
