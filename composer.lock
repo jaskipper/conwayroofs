@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "150b5c4a95bbfc9e1f7ae7a747dfc808",
-    "content-hash": "122e5d4c057761f807b10fdf54cf5ba4",
+    "hash": "29d9b8ea6aef1a5353ef1cdb25c7a9bb",
+    "content-hash": "608f512684bb4e6c16e68e01cec764c9",
     "packages": [
         {
             "name": "composer/installers",
@@ -335,16 +335,16 @@
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "v2.3.0",
+            "version": "v2.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "9ca5644c536654e9509b9d257f53c58630eb2a6a"
+                "reference": "3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/9ca5644c536654e9509b9d257f53c58630eb2a6a",
-                "reference": "9ca5644c536654e9509b9d257f53c58630eb2a6a",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c",
+                "reference": "3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c",
                 "shasum": ""
             },
             "require": {
@@ -356,7 +356,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.3-dev"
+                    "dev-master": "2.4-dev"
                 }
             },
             "autoload": {
@@ -381,19 +381,19 @@
                 "env",
                 "environment"
             ],
-            "time": "2016-06-14 14:14:52"
+            "time": "2016-09-01 10:05:43"
         },
         {
             "name": "wpackagist-plugin/all-in-one-seo-pack",
-            "version": "2.3.2.3",
+            "version": "2.3.9.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/all-in-one-seo-pack/",
-                "reference": "tags/2.3.2.3"
+                "reference": "tags/2.3.9.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/all-in-one-seo-pack.2.3.2.3.zip",
+                "url": "https://downloads.wordpress.org/plugin/all-in-one-seo-pack.2.3.9.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -445,15 +445,15 @@
         },
         {
             "name": "wpackagist-plugin/ewww-image-optimizer",
-            "version": "2.8.5",
+            "version": "2.9.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ewww-image-optimizer/",
-                "reference": "tags/2.8.5"
+                "reference": "tags/2.9.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.2.8.5.zip",
+                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.2.9.7.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -465,15 +465,15 @@
         },
         {
             "name": "wpackagist-plugin/ninja-forms",
-            "version": "2.9.50",
+            "version": "2.9.58",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ninja-forms/",
-                "reference": "tags/2.9.50"
+                "reference": "tags/2.9.58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ninja-forms.2.9.50.zip",
+                "url": "https://downloads.wordpress.org/plugin/ninja-forms.2.9.58.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -525,15 +525,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-retina-2x",
-            "version": "4.5.0",
+            "version": "4.5.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-retina-2x/",
-                "reference": "tags/4.5.0"
+                "reference": "tags/4.5.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-retina-2x.4.5.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-retina-2x.4.5.5.zip",
                 "reference": null,
                 "shasum": null
             },
