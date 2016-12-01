@@ -1,0 +1,301 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+}
+a {
+  color: $color-primary-2;
+  -webkit-transition:all 0.5s ease-out;
+  -moz-transition:all 0.5s ease-out;
+  -ms-transition:all 0.5s ease-out;
+  -o-transition:all 0.5s ease-out;
+  transition:all 0.5s ease-out;
+}
+a:hover, a:focus {
+  color: $color-primary-3;
+  text-decoration: none;
+}
+h1, h2 {
+  font-family: 'Stardos Stencil', cursive;
+  font-weight: 700;
+}
+#landing {
+  //background-image: url(../images/smGAFTimberlineHD.jpg);
+  height: 100vh;
+  .bottomtab {
+    bottom: 0;
+    padding: 10px 100px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 42px;
+    color: #fff;
+    a {
+      color: #fff;
+      font-weight: bold;
+    }
+  }
+}
+.cover {
+  position: relative;
+  -moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+  background-position: 50% 50%;
+  background-attachment: fixed;
+  @media screen and (max-width: 1024px) {
+        background-attachment: scroll;
+  }
+}
+#conwaylogo {
+  width: 60%;
+  max-width: 100%;
+  background-image: url(../images/ConwayAndSonRoofingWhtText.svg);
+  background-size: 100%;
+  height: 200px;
+  background-repeat: no-repeat;
+  @media screen and (max-width: 767px) {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .hdphone, .hddiv {
+    display: none;
+  }
+}
+.no-svg #conwaylogo {
+  background-image: url(../images/ConwayAndSonRoofingWhtText.png);
+}
+
+.skippersection {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+#about {
+  background-color: $conwaydkgray;
+  padding-bottom:40px;
+  padding-top: 40px;
+  color: $gray-lightmid;
+  .abicons {
+    font-size:70px;
+    line-height: 1.6;
+  }
+  h1 {
+    margin-bottom: 30px;
+    margin-top:0;
+    color: #fff;
+  }
+  .ababout {
+    margin-top: 30px;
+    padding-left: 6%;
+    padding-right: 6%;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 45px;
+  }
+  .imgtitle {
+    text-align: center;
+    font-size: 18px;
+  }
+  img {
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+  .bigger {
+    font-size: 26px;
+    padding-top: 15px;
+  }
+  .center {
+    background: $color-primary-0;
+  }
+  .center:before {
+
+  }
+  hr {
+    border: 0;
+    height: 1px;
+    width: 20% !important;
+    position: relative;
+    margin: 25px auto;
+  }
+}
+#services {
+  background-color: #fff;
+}
+.whatwedo {
+  div {
+  }
+  h2 {
+    font-size: 24px;
+  }
+  .fpicons img {
+    width: 80px;
+  }
+  p {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .wwdbox {
+    border-radius: 10px;
+    color: #fff;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    h2 {
+      font-weight: bold;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+      text-shadow: 1px 1px 5px rgba(0, 0, 0, .75);
+    }
+    .boximg {
+      margin: 15px -15px;
+      height: 200px;
+      overflow: hidden;
+    }
+    img {
+      width:100%;
+    }
+    ul {
+      padding-top: 15px;
+      padding-left: 15px;
+      list-style: none;
+      list-style-position: outside;
+      text-align: left;
+      font-size: 16px;
+      text-shadow: 1px 1px 5px rgba(0, 0, 0, .75);
+      li:before {
+        content: '✓';
+        margin-right: 10px;
+        color: $color-primary-3;
+      }
+    }
+  }
+  .box1, .box2, .box3 {
+    background-color: $conwaydkgray;
+  }
+
+}
+#conwayquote {
+  //background-image: url(../images/missingshingles.jpg);
+  color: #fff;
+  font-family: 'Stardos Stencil', cursive;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, .75);
+  font-weight: 700;
+  text-align: center;
+  font-size: 40px;
+  font-style: italic;
+  p {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    margin-bottom: 0;
+  }
+}
+.overlay {
+  background-color: rgba($conwaydkgray, 0.7);
+}
+
+.grow {
+  -webkit-transition:all 0.5s ease-out;
+  -moz-transition:all 0.5s ease-out;
+  -ms-transition:all 0.5s ease-out;
+  -o-transition:all 0.5s ease-out;
+  transition:all 0.5s ease-out;
+}
+
+.grow:hover, .grow:focus, .grow:active {
+  -webkit-transform:scale(1.1);
+  -moz-transform:scale(1.1);
+  -ms-transform:scale(1.1);
+  -o-transform:scale(1.1);
+  transform:scale(1.1);
+}
+.chorange {
+}
+
+.chorange:hover, .chorange:focus, .chorange:active {
+  color: $color-primary-3;
+}
+@font-face {
+    font-family: 'icomoon';
+    src:    url('../fonts/icomoon.eot?bb707');
+    src:    url('../fonts/icomoon.eot?bb707h#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?bb707h') format('truetype'),
+        url('../fonts/icomoon.woff?bb707h') format('woff'),
+        url('../fonts/icomoon.svg?bb707h#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ConwayAndSonRoofingWhtText .path1:before {
+    content: "\e904";
+    color: rgb(255, 255, 254);
+}
+.icon-ConwayAndSonRoofingWhtText .path2:before {
+    content: "\e905";
+    margin-left: -4.75em;
+    color: rgba(0, 0, 0, 0.7529411764705882);
+}
+.icon-ConwayAndSonRoofingWhtText .path3:before {
+    content: "\e906";
+    margin-left: -4.75em;
+    color: rgb(255, 255, 255);
+}
+.icon-ConwayAndSonRoofingWhtText .path4:before {
+    content: "\e907";
+    margin-left: -4.75em;
+    color: rgba(0, 0, 0, 0.7529411764705882);
+}
+.icon-ConwayAndSonRoofingWhtText .path5:before {
+    content: "\e908";
+    margin-left: -4.75em;
+    color: rgb(232, 112, 60);
+}
+.icon-ConwayAndSonRoofingWhtText .path6:before {
+    content: "\e909";
+    margin-left: -4.75em;
+    color: rgba(0, 0, 0, 0.7529411764705882);
+}
+.icon-ConwayAndSonRoofingWhtText .path7:before {
+    content: "\e90a";
+    margin-left: -4.75em;
+    color: rgb(232, 112, 59);
+}
+.icon-ConwayAndSonRoofingWhtText .path8:before {
+    content: "\e90b";
+    margin-left: -4.75em;
+    color: rgba(0, 0, 0, 0.7529411764705882);
+}
+.icon-ConwayAndSonRoofingWhtText .path9:before {
+    content: "\e90c";
+    margin-left: -4.75em;
+    color: rgb(255, 255, 255);
+}
+.icon-medal:before {
+    content: "\e900";
+}
+.icon-phone:before {
+    content: "\e901";
+}
+.icon-signs:before {
+    content: "\e902";
+}
+.icon-tools:before {
+    content: "\e903";
+}

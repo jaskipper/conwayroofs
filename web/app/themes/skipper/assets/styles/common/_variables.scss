@@ -1,0 +1,63 @@
+// Glyphicons font path
+$icon-font-path:        "../fonts/";
+
+// Grid settings
+$main-sm-columns:       12;
+$sidebar-sm-columns:    4;
+
+$gray-base:              #000 !default;
+$gray-darker:            lighten($gray-base, 13.5%) !default; // #222
+$gray-dark:              lighten($gray-base, 20%) !default;   // #333
+$gray:                   lighten($gray-base, 33.5%) !default; // #555
+$gray-light:             lighten($gray-base, 46.7%) !default; // #777
+$gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
+$gray-lightmid:          #bbb;
+
+$conwaydkgray:          #282C34;
+
+
+// As hex codes */
+
+$color-primary-0: #332532;	// Main Primary color */
+$color-primary-1: #644D52;
+$color-primary-2: #F77A52;
+$color-primary-3: #FF974F;
+$color-primary-4: #A49A87;
+
+$color-secondary-1-0: #2F6796;	// Main Secondary color (1) */
+$color-secondary-1-1: #73A0C5;
+$color-secondary-1-2: #487BA5;
+$color-secondary-1-3: #175283;
+$color-secondary-1-4: #0b3e69;
+
+$color-secondary-2-0: #78CE36;	// Main Secondary color (2) */
+$color-secondary-2-1: #B1EC84;
+$color-secondary-2-2: #95E259;
+$color-secondary-2-3: #5AB415;
+$color-secondary-2-4: #428F06;
+
+// As RGBa codes */
+
+$rgba-primary-0: rgba(232,112, 60,1);	// Main Primary color */
+$rgba-primary-1: rgba(255,176,142,1);
+$rgba-primary-2: rgba(255,146,100,1);
+$rgba-primary-3: rgba(203, 77, 24,1);
+$rgba-primary-4: rgba(161, 53,  7,1);
+
+$rgba-secondary-1-0: rgba( 47,103,150,1);	// Main Secondary color (1) */
+$rgba-secondary-1-1: rgba(115,160,197,1);
+$rgba-secondary-1-2: rgba( 72,123,165,1);
+$rgba-secondary-1-3: rgba( 23, 82,131,1);
+$rgba-secondary-1-4: rgba( 11, 62,104,1);
+
+$rgba-secondary-2-0: rgba(120,206, 54,1);	// Main Secondary color (2) */
+$rgba-secondary-2-1: rgba(177,236,132,1);
+$rgba-secondary-2-2: rgba(149,226, 89,1);
+$rgba-secondary-2-3: rgba( 90,180, 21,1);
+$rgba-secondary-2-4: rgba( 66,143,  6,1);
+
+// Colors
+$brand-primary:         $color-primary-0;
+$base-color:            $color-secondary-1-0;
+$base-comp1:            $color-secondary-2-0;
+$base-comp2:            #56AA56;
