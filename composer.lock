@@ -4,7 +4,6 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "29d9b8ea6aef1a5353ef1cdb25c7a9bb",
     "content-hash": "608f512684bb4e6c16e68e01cec764c9",
     "packages": [
         {
@@ -105,7 +104,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2016-04-13 19:46:30"
+            "time": "2016-04-13T19:46:30+00:00"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -142,7 +141,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2016-02-02 17:16:14"
+            "time": "2016-02-02T17:16:14+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -190,7 +189,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2015-06-11 15:15:30"
+            "time": "2015-06-11T15:15:30+00:00"
         },
         {
             "name": "oscarotero/env",
@@ -232,7 +231,7 @@
             "keywords": [
                 "env"
             ],
-            "time": "2016-05-08 17:14:32"
+            "time": "2016-05-08T17:14:32+00:00"
         },
         {
             "name": "roots/soil",
@@ -274,7 +273,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2016-03-07 19:49:21"
+            "time": "2016-03-07T19:49:21+00:00"
         },
         {
             "name": "roots/wp-password-bcrypt",
@@ -331,7 +330,7 @@
             "keywords": [
                 "wordpress wp bcrypt password"
             ],
-            "time": "2016-03-01 16:27:06"
+            "time": "2016-03-01T16:27:06+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -381,19 +380,19 @@
                 "env",
                 "environment"
             ],
-            "time": "2016-09-01 10:05:43"
+            "time": "2016-09-01T10:05:43+00:00"
         },
         {
             "name": "wpackagist-plugin/all-in-one-seo-pack",
-            "version": "2.3.9.1",
+            "version": "2.3.11.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/all-in-one-seo-pack/",
-                "reference": "tags/2.3.9.1"
+                "reference": "tags/2.3.11.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/all-in-one-seo-pack.2.3.9.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/all-in-one-seo-pack.2.3.11.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -445,15 +444,15 @@
         },
         {
             "name": "wpackagist-plugin/ewww-image-optimizer",
-            "version": "2.9.7",
+            "version": "3.2.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ewww-image-optimizer/",
-                "reference": "tags/2.9.7"
+                "reference": "tags/3.2.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.2.9.7.zip",
+                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.3.2.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -465,15 +464,15 @@
         },
         {
             "name": "wpackagist-plugin/ninja-forms",
-            "version": "2.9.58",
+            "version": "3.0.20",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ninja-forms/",
-                "reference": "tags/2.9.58"
+                "reference": "tags/3.0.20"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ninja-forms.2.9.58.zip",
+                "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.0.20.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -505,15 +504,15 @@
         },
         {
             "name": "wpackagist-plugin/wonderm00ns-simple-facebook-open-graph-tags",
-            "version": "1.7.3.1",
+            "version": "2.0.6.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wonderm00ns-simple-facebook-open-graph-tags/",
-                "reference": "tags/1.7.3.1"
+                "reference": "tags/2.0.6.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wonderm00ns-simple-facebook-open-graph-tags.1.7.3.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/wonderm00ns-simple-facebook-open-graph-tags.2.0.6.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -525,15 +524,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-retina-2x",
-            "version": "4.5.5",
+            "version": "4.7.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-retina-2x/",
-                "reference": "tags/4.5.5"
+                "reference": "tags/4.7.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-retina-2x.4.5.5.zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-retina-2x.4.7.6.zip",
                 "reference": null,
                 "shasum": null
             },
